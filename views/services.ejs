@@ -1,0 +1,90 @@
+<% include ./partials/header %>
+<link rel="stylesheet" type="text/css" href="services.css">
+
+<h1 class="text-center">Our Services</h1>
+<div id="container">
+		<img class="slides" src="http://i68.tinypic.com/2prcxs6.jpg">
+        <img class="slides"src="http://i65.tinypic.com/dpagww.jpg">
+		<img class="slides" src="http://i65.tinypic.com/otzyma.jpg">
+		<img class="slides" src="http://i68.tinypic.com/33f3sxy.jpg">
+		<button class="btn" onclick="plusIndex(1)" id="btn1">&#10094;</button>
+		<button class="btn" onclick="plusIndex(1)" id="btn2">&#10095;</button>
+	</div>
+
+	 <!-- people's comments.... -->
+	 <section class="testimonials">
+  	
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-4">
+  				
+  					<p>Burger Shack has a very tasty menu choice with the A1 Bacon Cheeseburger. I also recommend because of the wide soft drink selection. But the real very good rating came from the friendly staff. Not what I find to be typical fast food service, tired and bored, but friendly and cheerful.
+                    </p>
+  					
+  				  <cite ><img src="http://i66.tinypic.com/2hdmxlj.jpg" width="100" height="100">Manoj Chaudhary</cite>
+  				
+  			</div>
+
+  			<div class="col-md-4">
+  				
+  					<p> "Had the specialty triple burger and fries. Folks, I'm serious when I say this, one of the BEST burgers I 've had. Grilled in the Steak-N-Shake fashion with American cheese, creamy slaw and BBQ sauce. Prices were fair and service was prompt."<br> 
+  					Thank you TBS.
+  					</p>
+  					
+  				<cite><img src="http://i66.tinypic.com/sqmk2w.jpg" width="100" height="100">Susheel Chaudhary</cite>
+  				 
+  			</div>
+
+  			<div class="col-md-4">
+  				
+  					<p>Food is a huge passion of mine, and because I want to eat whatever I want, I run every morning, and then I do weights a few times a week. It's just how I can balance eating pancakes in the morning, a big burger for lunch, and then a fat steak and cheesecake at night.
+  					</p>
+  					
+  				<cite ><img src="http://i64.tinypic.com/1e3z2s.jpg" width="100" height="100">Rahul Chaudhary</cite>
+  				
+  				
+  			</div>n
+  		</div>
+  	</div>
+  </section>
+  
+  
+  <% include ./partials/footer %>
+  <script>
+	var index=1;
+	var i;
+	
+
+	function plusIndex(n){
+		index=index+1;
+		showImage(index);
+	}
+	 showImage(1);
+	function showImage(n){
+		var x =document.getElementsByClassName("slides");
+		if(n>x.length){ // cursor points to last one
+			index=1;
+		}
+		if(n<1){   // cursor at first
+			index=x.length;
+		}
+		for( i=0;i<x.length;i++){
+			x[i].style.display="none";
+		}
+		x[index-1].style.display="block";
+	}
+
+    autoSlide();
+	function autoSlide(){
+		var i;
+		var x =document.getElementsByClassName("slides");
+		for( i=0;i<x.length;i++){
+			x[i].style.display="none";
+		}
+		if(index>x.length){index=1;}
+		x[index-1].style.display="block";
+        index++;
+
+		setTimeout(autoSlide,2000);
+	}
+</script>

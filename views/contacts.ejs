@@ -1,0 +1,44 @@
+<% include ./partials/header %>
+<link rel="stylesheet" type="text/css" href="contacts.css">
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<input class="form-control" type="text" name="Name" placeholder="Name"><br>
+					<input class="form-control" type="email" name="email" placeholder="Email"><br>
+					<textarea  class="form-control"rows="8" placeholder="Message"></textarea><br>
+					<button class="btn btn-danger">Submit</button>
+				</div>
+				<div class="col-md-8">
+					<div class="social"><img src="https://image.flaticon.com/icons/png/512/124/124034.png" height="50" width="50"></div>
+					<div class="whatsapp">
+						<p>+91 8567827777 (India)<br>+62 2 170-69-77 (Sydney)<br>+020 2-88-77-123 (London)<br>+0011 64-22-345 (Auckland)<br>+1 212-44-888-22 (New York)</p>
+			
+					</div>
+					<div class="social"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAmVBMVEU4WJn///9AX509XZxGZKAzVJdCYZ73+PuYpsgkS5LAyd3d4u3Y3elieqwsT5RQbaY5W53s7/WLnbzK0+Tz9fkYQ45HZqCTpb7Cy94vUpUnTJLT2uhmfavP1uCvutNVb6ZadabY3uOerMp2i7i4w9urt9JrgbFshKwVQY3DzNd/kraruMvf5OhdeKeHm7m3wtGYqcCIm8GBk7tZpug2AAAE6klEQVR4nO3de3OiOhjA4aDGgEpYqrKCWu+2ut326Pf/cAdv7R+nhZdLSN6c9zezO52dKfJsuFQhhTn33v6ZBR1bCma/Vw8Yu/4tDi9ScmZPXHqzg/gSvj1xq3zXJD+uHsLVi9S9OkqSs/lN+LaxE5gS/dVFKJ5i3WuiLHkcpcIDt24X/Ep+pEJLd8JbfCnYymYgY96B/fZ0r4TS5DubWbwXsstmyiLd66C4DmvpXgXFtawXtkmIPhLij4T4IyH+SIg/EuKPhPgjIf5IiD8EQv6o3LcbLOTSS0tkfNWlf2KZeJ/J9N9BizFUyL2xx4LNabcdTgf9W4PBdDic9La7tXs67/2gw9L/gnylicKUx/31MHQyE2IUDnqdXKJxQh7H0WkosnVfBblXXQwT8rh77oF56UAiE8bx4jSE89AJuQzcaSGfg2srjdkZvvthHMMkes45eCIXjv1BcR8m4XhTeAO9hUTIX92SQCRjyOWunA/LGHK2LjmCaMbQHZUeQhTC+FziLPEZAmHs9ysAEYwhb00qADEIpVsFiEAog/JHmWvGC1971YDGj6HnVwOaP4ZJ4feDyMYw2VQdQtOFsthHFt9ltlD6FQ+kxo9hsiv9EzcOYdwp9bYekTDZVPmR+57RQvlcHWj0GPJO1ZPhJZOFcl/lbRMK4anAuUKE4fXy2uDe5xdR7pwtjVspeDcU/cn67Aed9q//lv862oTwt75T12cykXHMvyn/hbQJ4wXsQDPaLZJK81v1CWEHmvDEKs6O1CaUoI/YhAu8H+Hn9I3hE+SH0h6rPO9M35FmDQD2/eqTI/WdLSDXKno1TODVJwScDkenGmZ/6hLy9jZf+FbDRmq2cNCqYX6rNmEL8EnppI5fFKBN2AUIt0kNr2SyUOzqmGZutHBtvdAlISQSqoqEJIRHQlWRkITwSKgqEpIQHglVRUISwiOhqv4Hwo4VQvlzCYMIXzOWcAnyibFKYcvPaJ9/X6LYLbKWcEmvMF72swLcaxJmLiBtAtiMFQpl5Vuccxu+2i58HtsudK0XbgAXp3ALIdeIUQtF/n17yIVhG7AaqIVTyGV+1MIt5FYN1MK19cKT9ULQczkwC4Wv+d2TcmG4sP1YOo1sF04gJ3zUwmfQamAWrkF3LmIWnkC3LiIWirPtwnAPuoMYsbC/tH0Mh6DTIWZhr2u7EHY6xCyEnQ4RCwXsdIhYGJ5h003wCvt728dwADsdIhYCT4eIhb22dmG86A8yglwhzfj2/hq4Gkqv47d/jkX5k9WFK7OWYILwuwn09yRg7ppwxxlLMEKYkSV3m2REQhLCI6GqSEhCeCRUFQlJCI+EqiIhCeGRUFUkJCE8EqqKhCSER0JVkZCE8EioKhKSEB4JVUVCEsIjoapISEJ4JFQVCUkIj4SqIiEJ4ZFQVSQkITwSqoqEJIRHQlWRkITwSKgqEpIQHglVRUISwiOhqkhIQnht1q1hKcVrUhjVsJTiNSfssr81PDe5eI0J+ZI91fDs6xIv3JRQHtmqjgcnF64xoXdgzqyOp18XrSkhDwRzPnTsiE0J5R+HOeKoYU9sSChfRqnQWc2aJzYjlMu5cxE68+aJjQjl8uDchM7qKBveGRsQcvkydx5CZ/Sx9BpFqn4qGZde8Of268TYY3nz979Rq9tU7WjiiLxcXnLprWj5fhB32L+qloFeEHizdgAAAABJRU5ErkJggg==" height="50" width="50"></div>
+					<div class="facebook">
+						<a href="https://www.facebook.com">www.facebook.com/TheBurgerShack</a>
+					</div><br>
+					<div class="social"><img src="https://image.freepik.com/free-vector/instagram-icon_1057-2227.jpg" height="50" width="50"></div>
+					
+					<div class="instagram">
+						<a href="https://www.instagram.com">www.instagram.com/TheBurgerShack</a>
+					</div><br>
+					<div class="social"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" height="50" width="50"></div>
+					
+					<div class="gmail">
+						<a href="https://www.gmail.com">www.theBurgerShack@gmail.com</a>
+					</div>
+			</div>
+		</div>
+	</header>
+	<br>
+	<div class="container">
+
+		<section class="maps">
+  	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6995.957599046832!2d77.11126152493306!3d28.750049929486313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0127947c9d65%3A0x12ce9ec01b812d4e!2sDelhi+Technological+University%2C+Shahbad+Daulatpur+Village%2C+Rohini%2C+Delhi%2C+110042!5e0!3m2!1sen!2sin!4v1546699438930" width="1200" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </section>
+  
+  </div>
+<% include ./partials/footer %>

@@ -1,0 +1,55 @@
+*{
+	border:0;
+	padding:0;
+}
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-position:center;
+	background:cover;
+	background-attachment: fixed;
+
+}
+.head2 h1{
+	font-family: 'Happy Monkey', cursive;
+	color:white;
+}
+.cites img{
+	width: 100%;
+	height:200px;
+	margin-top: 50px;
+	border-radius: 10px;
+	border:1px solid #e67e22;
+
+}
+.cites i{
+	color:white;
+
+}
+.cites h4{
+	color:white;
+	font-family: 'Happy Monkey', cursive;
+}
+.outside img{
+	width:100%;
+	height: 200px;
+	border-radius: 10px;
+	border:1px solid #e67e22;
+}
+.outside h4{
+/*margin:50px;*/
+font-family: 'Happy Monkey', cursive;
+
+color:white;
+
+}
+
+.outside i{
+	color:white;
+}
+.outside h1{
+	color: white;
+	font-family: 'Happy Monkey', cursive;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}

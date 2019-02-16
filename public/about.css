@@ -1,0 +1,68 @@
+*{
+	padding: 0px;
+	border:0px;
+}
+body{
+	background-color:whitesmoke;
+	
+}
+.first{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://i63.tinypic.com/2w550u0.jpg);
+	height: 500px;
+	background-position:center;
+	background:cover;
+	background-attachment: fixed;
+
+
+}
+h1{
+	color: white;
+	font-family: 'Happy Monkey', cursive;
+	padding-top: 250px;
+	font-weight: 100px;
+}
+p{
+	font-size: 30px;
+	font-family: 'Happy Monkey', cursive;
+	padding-bottom: 100px;
+}
+h2{
+	color:#e67e27;
+	font-family: 'Happy Monkey', cursive;
+	/*padding-top: 50px;*/
+	border:1px solid #e67e27;
+	border-radius: 10px;
+	font-weight: 20px;
+	width: 350px;
+	margin-left: 450px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-left: 15px;
+
+}
+
+/*footer*/
+/*footer*/
+footer{
+	background-color:black;
+	opacity: 0.8;
+
+}
+.social-icon a{
+	font-size: 60px;
+	padding: 40px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.copyright{
+	color: white;
+	opacity: 0.6;
+}
+.fab{
+	color:white;
+	
+}
+.far{
+	color: white;
+	opacity: 0.5;
+}

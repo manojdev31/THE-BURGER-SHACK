@@ -1,0 +1,98 @@
+*{
+	padding:0;
+	margin: 0;
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.pexels.com/photos/131634/pexels-photo-131634.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background: cover;
+    background-attachment: fixed;
+}
+/*.container{
+	width: 450px;
+	margin:70px auto;
+}
+*/.signup,
+.login{
+	color: white;
+	text-align: center;
+	width: 50%;
+	height:50px;
+    float: left;
+    padding: 10px;
+    line-height: 50px;
+    cursor: pointer;
+    
+    
+    margin-top: 180px;
+    font-family: 'Happy Monkey', cursive;
+	font-weight: 20px;
+	font-size: 20px;
+	
+/*	opacity: 0.2;*/
+
+}
+.col-md-6{
+	background-color: black;
+	margin-top:100px;
+	margin-bottom: 200px;
+	opacity: 0.8;
+	height: 500px;
+
+}
+.signup-form input{
+	background-color:unset;
+	/*opacity: 0.5*/
+	
+}
+.login-form input{
+	background-color:unset;
+	/*opacity: 0.5;*/
+	
+}
+.login-form a{
+	color: white;
+}
+
+.signup-form,
+.login-form{
+	
+	box-sizing: border-box;
+	padding: 40px;
+
+	width: 100%;
+	height: 400px;
+	margin-top: 200px;
+	margin-bottom: 100px;
+	background-color:unset;
+	
+}
+
+.btn{
+	background-color:teal;
+	margin-left: 10px;
+}
+
+/*footer*/
+footer{
+	background-color:black;
+	opacity: 0.8;
+
+}
+.social-icon a{
+	font-size: 60px;
+	padding: 40px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.copyright{
+	color: white;
+	opacity: 0.6;
+}
+.fab{
+	color:white;
+	
+}
+.far{
+	color: white;
+	opacity: 0.5;
+}

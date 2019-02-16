@@ -1,0 +1,27 @@
+<% include ./partials/header %>
+<link rel="stylesheet" type="text/css" href="signup.css">
+<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="signup">SIGNUP (Its free !)</div>
+				<div class="signup-form">
+			<input class="form-control" type="text" name="email" placeholder="Enter your Email"required><br>
+			<input class="form-control" type="text" name="username" placeholder="Choose your Username"required><br>
+			<input class="form-control" type="password" name="password" placeholder="Enter your password"required> <br>
+			<div class="btn btn-warning">Create an account</div>
+			<div class="btn btn-warning"><i class="fab fa-facebook"></i> Connect with Facebook</div>
+		</div>
+        </div>
+			<div class="col-md-6">
+				<div class="login">LOGIN</div>
+				<div class="login-form">
+			<input class="form-control" type="text" name="Username" placeholder="Enter your Username"required><br>
+			<input class="form-control" type="password" name="Password" placeholder="Enter your Password (Min 8 characters)"required><br>
+			<div class="btn btn-warning">Login</div><br><br>
+			<span><a href="">Forget Username or Password?</a></span>
+		</div>
+        </div>
+
+		</div>
+		</div>
+<% include ./partials/footer %>

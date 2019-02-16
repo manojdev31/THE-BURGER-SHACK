@@ -1,0 +1,86 @@
+*{
+	border:0;
+	padding:0;
+}
+h1{
+	color: white;
+	font-family: 'Happy Monkey', cursive;
+}
+
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://i68.tinypic.com/2z6cei9.jpg);
+	background-position:center;
+	background:cover;
+	background-attachment: fixed;
+
+}
+.row{
+	margin-top: 50px;
+}
+.social{
+	color: white;
+}
+.whatsapp p{
+	color: white;
+	margin-left: 280px;
+	font-family: 'Happy Monkey', cursive;
+	padding: 5px;
+	text-align: justify;
+	color: #e67e27;
+	font-weight: 20px;
+	font-size: 20px;
+}
+.social img{
+	margin-left: 350px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.facebook a{
+	color: white;
+	margin-left: 290px;
+	text-align: justify;
+	margin-top: 20px;
+	color: #e67e27;
+	font-family: 'Happy Monkey', cursive;
+	font-weight: 20px;
+	font-size: 20px;
+}
+.facebook a:hover{
+	color: white;
+}
+.instagram a{
+	color: white;
+	margin-left: 290px;
+	text-align: justify;
+	margin-top: 20px;
+	color: #e67e27;
+	margin-top: 20px;
+	font-family: 'Happy Monkey', cursive;
+	font-weight: 20px;
+	font-size: 20px;
+}
+.instagram a:hover{
+	color: white;
+}
+.gmail a{
+	color: white;
+	margin-left: 290px;
+	text-align: justify;
+	margin-top: 20px;
+	color: #e67e27;
+	margin-top: 20px;
+	font-family: 'Happy Monkey', cursive;
+	font-weight: 20px;
+	font-size: 20px;
+
+}
+.gmail a:hover{
+	color: white;
+}
+.maps{
+	margin-right:40px;
+	/*border:1px solid #e67e22;*/
+	margin-top: 40px;
+    margin-bottom: 20px;
+}
+/*

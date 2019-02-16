@@ -1,0 +1,65 @@
+.*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color:black;
+
+}
+
+h1{
+	color:#e67e22;
+	font-family: 'Happy Monkey', cursive;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border:1px solid #e67e22;
+	border-radius: 10px;
+	width: 500px;
+	padding: 10px;
+	margin-left: 400px;
+}
+
+li{
+	list-style: none;
+	color: white;
+	font-size: 30px;
+	padding: 10px;
+
+
+
+}
+.twostar{
+	background-color: teal;
+	height: 500px;
+	margin-bottom: 50px;
+	border-radius: 20px;
+
+}
+.threestar{
+	background-color: yellowgreen;
+	height: 450px;
+	border-radius: 20px;
+}
+.fivestar{
+	background-color: orangered;
+	height: 500px;
+	margin-bottom: 50px;
+	border-radius: 20px;
+}
+.plan{
+	font-size: 25px;
+	margin-left: 30px;
+	padding-bottom: 50px;
+}
+.price{
+	font-size: 35px;
+}
+p{
+	color: black;
+	padding: 5px;
+}
+.btn-danger {
+    color: #fff;
+    background-color: red;
+    border-color: #d43f3a;
+}

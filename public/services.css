@@ -1,0 +1,109 @@
+*{
+	padding:0;
+	border:0;
+}
+
+body{
+	background-image:url(https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;  /*parallex effect*/
+}
+h1{
+	color: white;
+	font-family: 'Happy Monkey', cursive;
+	font-weight: 20px;
+	font-size: 60px;
+	margin-bottom: 60px;
+}
+
+#container{
+
+	width:80%;
+	height: 450px;
+	border:1px solid black;
+	margin:0 auto;
+	position: relative;
+}
+#container img{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	border:1px solid #e67e22;
+	border-radius: 20px;
+
+}
+#container .btn{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border:none;
+	border-radius: 25px;
+	margin-top:200px;
+	background-color: grey;
+	color: white;
+	font-size: 20px;
+	border:1px solid black;
+}
+#container>#btn2{
+	position:relative;
+	float: right;
+	
+}
+#container>#btn1:hover{
+	box-shadow: 10px 0px 20px 0px grey;
+
+}
+#container>#btn2:hover{
+	box-shadow: -10px 0px 20px 0px grey;
+}
+/*for people's comments*/
+.row{
+	margin-top: 150px;
+}
+
+.testimonials cite img{
+	
+	margin-bottom:50px;
+	border-radius:50px;
+	border:1px solid blue;
+    
+}
+.testimonials cite{
+	color:white;
+    margin-left: 
+    /*padding-bottom: 30px;*/
+}
+
+
+.testimonials p{
+	color: white;
+	font-family: 'Happy Monkey', cursive;
+	margin-top: 30px;
+	text-align: justify;
+}/*
+
+footer*/
+footer{
+	background-color:black;
+	opacity: 0.8;
+
+}
+.social-icon a{
+	font-size: 60px;
+	padding: 40px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.copyright{
+	color: white;
+	opacity: 0.6;
+}
+.fab{
+	color:white;
+	opacity: 0.5;
+}
+.far{
+	color: white;
+	opacity: 0.5;
+}
